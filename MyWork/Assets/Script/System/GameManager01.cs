@@ -8,7 +8,6 @@ public class GameManager01 : MonoBehaviour
     public float _R;//радиус окружности
     private float _phi;//угол между персонажем и центром окружности
     public GameObject _movePoint;//точка на окружности к которой стремится гоблин
-
   
 
     // Start is called before the first frame update
