@@ -15,7 +15,7 @@ public class OrcController : MonoBehaviour
     {
         nav = GetComponent<NavMeshAgent>();
         nav.enabled = true;
-
+        transform.position = _movePoint.transform.position;
     }
 
     // Update is called once per frame
